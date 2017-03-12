@@ -6,12 +6,12 @@ class ColorListTest extends \PHPUnit_Framework_TestCase {
 
     public function testGetNameFromHex()
     {
-        $this->assertEquals('Red', ColorList::getNameFromHex('#FF0000'));
+        $this->assertEquals('Vermelho', ColorList::getNameFromHex('#FF0000'));
     }
 
     public function testGetHexFromName()
     {
-        $this->assertEquals('FF0000', ColorList::getHexFromName('Red'));
+        $this->assertEquals('FF0000', ColorList::getHexFromName('Vermelho'));
     }
 
     // started with 1564 colours, so should have at least that many
